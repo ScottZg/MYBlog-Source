@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: 我不是掌柜
+subtitle: 一个iOS开发工程师
 description:
 keywords:
 author: zhanggui
-language:
-timezone:
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -80,4 +80,4 @@ theme: maupassant
 deploy:
   type: git
   repository: https://github.com/ScottZg/ScottZg.github.io.git
-  branch: 2.0
+  branch: master
