@@ -3,6 +3,7 @@ title: RubyGems系列之RubyGems初识
 date: 2018-09-28 16:18:49
 tags: ["Ruby"]
 ---
+转载请注明来源：http://supermokey.com/2018/09/28/rubygems-know/
 ### 一. 基础理解
 RubyGems简称gems，它是一个用于对Ruby组件进行打包的Ruby打包系统。使用它可以方便地下载安装Ruby的软件包到用户的系统。**一个软件包叫做 一个gem，它包含了一个打包的Ruby Application或者一个library**。
 
