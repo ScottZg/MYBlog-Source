@@ -15,22 +15,18 @@ $(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).tx
 /Users/zhanggui/Library/Developer/Xcode/DerivedData/LinkMapTest-ffnpzjkbsmhwvdcxorqbxpyvjtob/Build/Intermediates.noindex/LinkMapTest.build/Debug-iphonesimulator/LinkMapTest.build/LinkMapTest-LinkMap-normal-x86_64.txt
 ```
 开发者也可以根据自己的需要自行设置该文件的位置。
-
 ### Link Map File的组成
 打开Link Map File，里面包含了以下几个部分：
-
 #### 1. Path
 ```
 # Path: /Users/zhanggui/Library/Developer/Xcode/DerivedData/LinkMapTest-ffnpzjkbsmhwvdcxorqbxpyvjtob/Build/Products/Debug-iphonesimulator/LinkMapTest.app/LinkMapTest
 ```
 Path是生成可执行文件的路径。
-
 #### 2. Arch
 ```
 # Arch: x86_64
 ```
 Arch指代架构类型。
-
 #### 3. Object files：
 ```objective-c
 # Object files:
@@ -44,7 +40,6 @@ Arch指代架构类型。
 [7]/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks//UIKit.framework/UIKit.tbd
 ```
 Object Files列举了可执行文件里所有的obj以及tbd。每一行代表对文件的编号。例如ViewController.o文件，其编号为2。编号的具体作用稍后介绍。
-
 #### 4. Sections
 ```
 # Sections:
@@ -89,7 +84,6 @@ LinkMapTest: Mach-O 64-bit executable x86_64
 
 Segment又被划分成了不同的Section，不同的Section存储了不同的信息，例如 _ _ objc _ methname 为方法的名称。  
 再回顾上面的Sections，Address是起始位置、Size是大小、Segment是段、Section。
-
 #### 5. Symbols
 ```shell
 # Address	Size    	File  Name
@@ -128,7 +122,6 @@ Symbols包含的信息有：
 2. Size：所占内存大小，这里使用16进制表示。
 3. File：该Name所在的文件编号，也就是Object files部分的中括号的数字，例如-[ViewController viewDidLoad]对应的文件编号为2，根据Object files部分可以看到所属的文件为：ViewController.o。这样可以计算某个o文件所占内存的大小。只需要把Symbols中编号为o编号Symbols累加统计即可。
 4. Name就是该Sybmols的名称。
-
 #### 6. Dead Stripped Symbols
 ```shell
 # Dead Stripped Symbols:
@@ -155,12 +148,12 @@ UIKit.tbd          24B
 总大小为(仅供参考)：10.07KB
 ```
 想了解更多可以访问[ZLinkMapParser](https://github.com/ScottZg/ZLinkMapParser)
-
 ### 总结
 1. 苹果开发还是有很多细节的东西需要去学习去了解。
 2. 学习一门脚本语言，也会给平时的开发带来很大的方便。
-
 ### 参考
 1. [Mach-O可执行文件](https://objccn.io/issue-6-3/)
 2. [iOS调优|深入理解Link Map File](https://www.jianshu.com/p/52e0dee35830)
 3. [iOS APP可执行文件的组成](http://blog.cnbang.net/tech/2296/)
+
+转载请注明出处：[http://supermokey.com/2018/11/20/link-map-file-known/](http://supermokey.com/2018/11/20/link-map-file-known/)
