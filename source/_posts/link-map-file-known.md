@@ -134,7 +134,7 @@ Symbols包含的信息有：
 . . .
 ```
 上面便是对Link map file做了简单的介绍。   
-### ZLinkMapParser
+### itools
 花了两天的时间，根据对Link Map File的学习，使用Ruby写了一个脚本文件，可以方便地统计出指定Link Map File中的组件或者tbd占用内存大小，类似：
 ```
 AppDelegate.o          8.50KB
@@ -147,10 +147,11 @@ Foundation.tbd          24B
 UIKit.tbd          24B
 总大小为(仅供参考)：10.07KB
 ```
-想了解更多可以访问[ZLinkMapParser](https://github.com/ScottZg/ZLinkMapParser)
+想了解更多可以访问[https://github.com/ScottZg/itools](hhttps://github.com/ScottZg/itools)
 ### 总结
 1. 苹果开发还是有很多细节的东西需要去学习去了解。
 2. 学习一门脚本语言，也会给平时的开发带来很大的方便。
+
 ### 参考
 1. [Mach-O可执行文件](https://objccn.io/issue-6-3/)
 2. [iOS调优|深入理解Link Map File](https://www.jianshu.com/p/52e0dee35830)
