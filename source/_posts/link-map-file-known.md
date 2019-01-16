@@ -147,7 +147,7 @@ Foundation.tbd          24B
 UIKit.tbd          24B
 总大小为(仅供参考)：10.07KB
 ```
-想了解更多可以访问[https://github.com/ScottZg/itools](hhttps://github.com/ScottZg/itools)
+想了解更多可以访问[https://github.com/ScottZg/itools](https://github.com/ScottZg/itools)
 ### 总结
 1. 苹果开发还是有很多细节的东西需要去学习去了解。
 2. 学习一门脚本语言，也会给平时的开发带来很大的方便。
