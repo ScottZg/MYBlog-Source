@@ -664,3 +664,4 @@ Usage: ruby [switches] [--] [programfile] [arguments]
   -x[directory]   strip off text before #!ruby line and perhaps cd to directory
   -h              show this message, --help for more info
 ```
+转发请标注出处：[http://supermokey.com/2019/01/16/ruby/](http://supermokey.com/2019/01/16/ruby/)
