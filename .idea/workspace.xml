@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="348a6586-1168-475c-b89c-c48779906d13" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/maupassant" beforeDir="false" afterPath="$PROJECT_DIR$/themes/maupassant" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +17,32 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/ruby.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="406">
-                <caret line="666" column="35" selection-start-line="666" selection-start-column="35" selection-end-line="666" selection-end-column="35" />
+              <first_editor relative-caret-position="9975">
+                <caret line="665" column="3" selection-start-line="665" selection-start-column="3" selection-end-line="665" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="git-branch-standard.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="git-branch-standard.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/git-branch-standard.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="848" selection-start-line="6" selection-start-column="848" selection-end-line="6" selection-end-column="848" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3d-touch-guide.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/3d-touch-guide.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="406">
-                <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+              <first_editor relative-caret-position="466">
+                <caret line="401" column="145" selection-start-line="401" selection-start-column="145" selection-end-line="401" selection-end-column="145" />
               </first_editor>
               <second_editor />
             </state>
@@ -49,6 +59,7 @@
       <list>
         <option value="$PROJECT_DIR$/source/_posts/ruby.md" />
         <option value="$PROJECT_DIR$/source/_posts/git-branch-standard.md" />
+        <option value="$PROJECT_DIR$/source/_posts/3d-touch-guide.md" />
       </list>
     </option>
   </component>
@@ -73,11 +84,14 @@
     <option name="width" value="1400" />
     <option name="height" value="805" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,9 +119,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,11 +195,12 @@
       <workItem from="1547605035128" duration="1480000" />
       <workItem from="1547732901715" duration="5000" />
       <workItem from="1547776861092" duration="786000" />
+      <workItem from="1552650312409" duration="81000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2271000" />
+    <option name="totallyTimeSpent" value="3443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="805" extended-state="0" />
@@ -203,10 +216,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25171" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25171" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -232,6 +245,46 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/ruby.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
+          <first_editor relative-caret-position="9975">
+            <caret line="665" column="3" selection-start-line="665" selection-start-column="3" selection-end-line="665" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/git-branch-standard.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="848" selection-start-line="6" selection-start-column="848" selection-end-line="6" selection-end-column="848" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/ruby.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="9990">
+            <caret line="666" column="35" selection-start-line="666" selection-start-column="35" selection-end-line="666" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/git-branch-standard.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="915">
+            <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/ruby.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
           <first_editor relative-caret-position="9990">
             <caret line="666" column="35" selection-start-line="666" selection-start-column="35" selection-end-line="666" selection-end-column="35" />
           </first_editor>
@@ -252,7 +305,7 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/ruby.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="406">
+          <first_editor relative-caret-position="9990">
             <caret line="666" column="35" selection-start-line="666" selection-start-column="35" selection-end-line="666" selection-end-column="35" />
           </first_editor>
           <second_editor />
@@ -263,7 +316,67 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="406">
-            <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+            <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/ruby.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/ruby.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="9990">
+            <caret line="666" column="35" selection-start-line="666" selection-start-column="35" selection-end-line="666" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/ruby.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="9990">
+            <caret line="666" column="8" selection-start-line="666" selection-start-column="8" selection-end-line="666" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/ruby.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="9975">
+            <caret line="665" column="3" selection-start-line="665" selection-start-column="3" selection-end-line="665" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/git-branch-standard.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="848" selection-start-line="6" selection-start-column="848" selection-end-line="6" selection-end-column="848" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/3d-touch-guide.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="466">
+            <caret line="401" column="145" selection-start-line="401" selection-start-column="145" selection-end-line="401" selection-end-column="145" />
           </first_editor>
           <second_editor />
         </state>
